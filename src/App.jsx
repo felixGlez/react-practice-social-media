@@ -1,5 +1,14 @@
+import BigCard from './components/big-card/BigCard';
+import BigCardsContainer from './components/big-cards-container/BigCardsContainer';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<BigCardsContainer>
+				<BigCard />
+			</BigCardsContainer>
+		</>
+	);
 };
 
 export default App;

@@ -1,0 +1,16 @@
+.line{
+    width: 100%;
+    height: 10px;
+}
+.facebook{
+    background-color: #1DA1F2;
+}
+.twitter{
+    background-color: #178FF5;
+}
+.instagram{
+    background-color: #EE877E;
+}
+.youtube{
+    background-color: #C4032B;
+}

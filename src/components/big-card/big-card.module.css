@@ -1,13 +1,14 @@
 .card{
-    background-color: #8C98C6;
+    background-color: #252B42;
     height: 216px;
     width: 255px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center
+    justify-content: space-between;
+    align-items: center;
+    color: white
 }
 
 .radius{
-    border-radius: 10px;
+    border-radius: 5px 5px 10px 10px;
 }

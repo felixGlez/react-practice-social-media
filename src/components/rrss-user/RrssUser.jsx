@@ -4,7 +4,7 @@ const RrssUser = props => {
 	return (
 		<div className={style['rrss-user']}>
 			<img src={props.icon} alt='' />
-			<p>{props.user}</p>
+			<p className={style.color}>{props.user}</p>
 		</div>
 	);
 };

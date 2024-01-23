@@ -18,7 +18,7 @@ export const RRSS_CARDS_INFO = [
 	{
 		icon: '/images/icon-instagram.svg',
 		user: '@realnathanf',
-		followers: '11k',
+		followers: 11,
 		dailyFollowers: 1099,
 		word: 'followers',
 		background: 'instagram'

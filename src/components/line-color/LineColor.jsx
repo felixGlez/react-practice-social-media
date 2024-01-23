@@ -1,7 +1,8 @@
 import style from './line-color.module.css';
 
 const LineColor = props => {
-	return <div className={`${style[props.color]} ${style.line}}`}></div>;
+	console.log(style);
+	return <div className={`${style[props.color]} ${style.rectangle}`}></div>;
 };
 
 export default LineColor;

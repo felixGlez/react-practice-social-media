@@ -11,7 +11,7 @@ const BigCard = props => {
 		<div className={`${style.card} ${style.radius}`}>
 			<LineColor color={props.background} />
 			<RrssUser icon={props.icon} user={props.user} />
-			<FollowersNumber followers={props.followers} />
+			<FollowersNumber followers={props.followers} rrss={props.background} />
 			<Word word={props.word} />
 			<DailyFollowers dailyFollowers={props.dailyFollowers} />
 		</div>
